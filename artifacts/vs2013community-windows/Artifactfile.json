@@ -10,6 +10,6 @@
     "iconUri": "https://katprotech.com/assets/images/katpro_logo.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'SPONLINEDOWNLOADER --version 1.0.1', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'SPONLINEDOWNLOADER', '\"')]"
     }
 }
