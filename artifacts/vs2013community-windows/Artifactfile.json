@@ -1,15 +1,15 @@
 {
     "$schema": "",
-    "title": "Visual studio community 2013",
-    "publisher": "Microsoft",
-    "description": "Installs Visual studio community 2013 using the Chocolatey package manager",
+    "title": "SPONLINEDOWNLOADER",
+    "publisher": "KAtpro",
+    "description": "Installs SPONLINEDOWNLOADER using the Chocolatey package manager",
     "tags": [
         "Windows",
-        "Visual studio community 2013"
+        "SPONLINEDOWNLOADER"
     ],
-    "iconUri": "https://chocolatey.org/content/packageimages/VisualStudioCommunity2013.12.0.21005.1.png",
+    "iconUri": "https://katprotech.com/assets/images/katpro_logo.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'visualstudiocommunity2013', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'SPONLINEDOWNLOADER --version 1.0.1', '\"')]"
     }
 }
